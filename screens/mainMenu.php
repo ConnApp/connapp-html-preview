@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <?php include 'head.php'; ?>
+    <?php include '../components/head.php'; ?>
 
     <body class="body">
 
         <header>
-            <div class="navbar-1">
-                <div class="leftBtn">
-                    <i class="material-icons">arrow_back</i>
-                </div>
-
-                <div class="logo">
-                    <img src="img/logo2.png" alt="">
-                </div>
-
-                <div class="rightBtn">
-                    <i class="material-icons">search</i>
-                </div>
-            </div>
-
-            <div class="navbar-2">
-                <div class="wrapper">
-                    <div class="">
-                        <span>10 de Ago</span>
-                        <span>11 de Ago</span>
-                        <span>12 de Ago</span>
-                    </div>
-                    <div class="grandient"></div>
-                </div>
+            <div class="logo">
+                <img src="img/logo2.png" alt="">
             </div>
         </header>
 
         <section>
-            <div class="">
+            <button class="btn">
+                Programação<a href="programacao.php">></a>
+            </button>
+        </section>
 
-            </div>
+        <section>
+            <button class="btn">
+                Agenda<a href="agenda.php">></a>
+            </button>
+        </section>
+
+        <section>
+            <button class="btn">
+                Informações<a href="informacoes.php">></a>
+            </button>
+        </section>
+
+        <section>
+            <button class="btn">
+                Notícias<a href="noticias.php">></a>
+            </button>
+        </section>
+
+        <section>
+            <button class="btn">
+                Notas<a href="notas.php">></a>
+            </button>
         </section>
 
         <script type="text/javascript">
             window.setTimeout(function () {
-                location.href = "programacao.php";
+                location.href = "mainMenu.php";
             }, 5000);
         </script>
 
@@ -66,21 +69,12 @@
         right: 0;
         background-color: #2196F3;
         height: 25vh;
-        position: relative;
-        display: block;
-    }
-
-    .leftBtn{
-        float: left;
-    }
-
-    .rightBtn{
-        float: left;
     }
 
     .logo{
-        float: left;
         position: relative;
+        top: 35%;
+        width: 100%;
     }
 
     .logo img{

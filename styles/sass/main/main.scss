@@ -1,3 +1,9 @@
+@charset "UTF-8";
 
-@import "../normalize/_normalize",
-        "../framework/_framework";
+
+@import "../normalize/normalize",
+        "../framework/framework",
+        "splash",
+        "events",
+        "loading",
+        "mainMenu";

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <?php include 'head.php'; ?>
+    <?php include '../components/head.php'; ?>
 
     <body class="body">
 
@@ -18,7 +18,7 @@
 
         <script type="text/javascript">
             window.setTimeout(function () {
-                location.href = "main_menu.php";
+                location.href = "mainMenu.php";
             }, 3000);
         </script>
 
